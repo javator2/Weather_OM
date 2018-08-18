@@ -1,6 +1,7 @@
 package com.sda.weather;
 
-import Model.Weather;
+
+import model.Weather;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
@@ -19,18 +20,21 @@ public class WeatherService {
     public Weather getCityWeather(String city){
         Weather weather = new Weather();
         String reqUrl = finalUrl + "&q=" + city;
-        JSONObject json = null;
+
+        JSONObject json =
+                null;
         try {
-            json = new JSONObject(IOUtils.toString(new URL(reqUrl), Charset.forName("UTF-8")));
+            json = new JSONObject(IOUtils.toString(new URL(reqUrl),
+                    Charset.forName("UTF-8")));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        weather.setCity((String) json.getJSONObject("location").get("name"));
-        weather.setIconUrl((String) json.getJSONObject("current").getJSONObject("condition").get("icon"));
-        weather.setTemperature((Double) json.getJSONObject("current").get("temp_c"));
-        weather.setFeeldslikeC((Double) json.getJSONObject("current").get("feelslike_c"));
-        weather.setConditionText((String) json.getJSONObject("current").getJSONObject("condition").get("text"));
+        weather.setCity(json.getJSONObject("location").get("name").toString());
+        weather.setLat(json.getJSONObject("location").getDouble("lat"));
+        weather.setLon(json.getJSONObject("location").getDouble("lon"));
+
         return weather;
     }
+
 }

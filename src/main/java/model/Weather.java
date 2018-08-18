@@ -1,16 +1,33 @@
-package Model;
-
+package model;
 public class Weather {
 
     private String city;
     private String iconUrl;
     private double temperature;
-    private double feeldslikeC;
+    private double feelslikeC;
     private String conditionText;
+    private double lat;
+    private double lon;
+
 
     public Weather() {
     }
 
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public double getLon() {
+        return lon;
+    }
+
+    public void setLon(double lon) {
+        this.lon = lon;
+    }
 
     public String getCity() {
         return city;
@@ -36,12 +53,12 @@ public class Weather {
         this.temperature = temperature;
     }
 
-    public double getFeeldslikeC() {
-        return feeldslikeC;
+    public double getFeelslikeC() {
+        return feelslikeC;
     }
 
-    public void setFeeldslikeC(double feeldslikeC) {
-        this.feeldslikeC = feeldslikeC;
+    public void setFeelslikeC(double feelslikeC) {
+        this.feelslikeC = feelslikeC;
     }
 
     public String getConditionText() {
@@ -58,8 +75,10 @@ public class Weather {
                 "city='" + city + '\'' +
                 ", iconUrl='" + iconUrl + '\'' +
                 ", temperature=" + temperature +
-                ", feeldslikeC=" + feeldslikeC +
+                ", feelslikeC=" + feelslikeC +
                 ", conditionText='" + conditionText + '\'' +
+                ", lat=" + lat +
+                ", lon=" + lon +
                 '}';
     }
 }

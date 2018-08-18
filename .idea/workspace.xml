@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b49c5b2-f027-42e5-ab0d-ad823cb3a64f" name="Default Changelist" comment="" />
+    <list default="true" id="6b49c5b2-f027-42e5-ab0d-ad823cb3a64f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/weather/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/weather/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Weather.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +31,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="java" value="5" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -34,7 +39,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="3" />
           <entry key="JAVA" value="5" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="323">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,15 +73,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/weather/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,29 +90,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Weather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-624">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
               <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,9 +152,9 @@
         <option value="$PROJECT_DIR$/src/main/java/model/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/WeatherService.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/weather/WeatherService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/weather/WeatherService.java" />
       </list>
     </option>
   </component>
@@ -229,7 +242,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534592573932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534598555285" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -297,12 +311,12 @@
       <updated>1534577266149</updated>
       <workItem from="1534577268849" duration="3633000" />
       <workItem from="1534581134781" duration="749000" />
-      <workItem from="1534582486829" duration="6614000" />
+      <workItem from="1534582486829" duration="10105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10996000" />
+    <option name="totallyTimeSpent" value="14487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -337,6 +351,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -352,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -366,53 +403,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Weather.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="14" column="30" selection-start-line="9" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/weather/WeatherService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/weather/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
