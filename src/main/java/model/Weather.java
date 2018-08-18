@@ -11,6 +11,7 @@ public class Weather {
     public Weather() {
     }
 
+
     public String getCity() {
         return city;
     }
